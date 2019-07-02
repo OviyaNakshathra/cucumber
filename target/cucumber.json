@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Display Welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2444700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "displays Welcome message",
+            "match": {
+              "location": "background.displays_Welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "signin",
+        "description": "",
+        "id": "test-background;signin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 287300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "username and pwd is entered",
+            "match": {
+              "location": "background.username_and_pwd_is_entered()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 836200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click signin",
+            "match": {
+              "location": "background.click_signin()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Display Welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 105600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "displays Welcome message",
+            "match": {
+              "location": "background.displays_Welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "search product",
+        "description": "",
+        "id": "test-background;search-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 56400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "product to searched is entered",
+            "match": {
+              "location": "background.product_to_searched_is_entered()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Display Welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 101200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "displays Welcome message",
+            "match": {
+              "location": "background.displays_Welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "add to cart",
+        "description": "",
+        "id": "test-background;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "product  searched is added to cart",
+            "match": {
+              "location": "background.product_searched_is_added_to_cart()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Display Welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 180700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "displays Welcome message",
+            "match": {
+              "location": "background.displays_Welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "payment",
+        "description": "",
+        "id": "test-background;payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 81900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "product to be purchased is payed using netbanking",
+            "match": {
+              "location": "background.product_to_be_purchased_is_payed_using_netbanking()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Display Welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 115700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "displays Welcome message",
+            "match": {
+              "location": "background.displays_Welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "signout",
+        "description": "",
+        "id": "test-background;signout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user performs logout",
+            "match": {
+              "location": "background.user_performs_logout()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "test background",
+    "description": "",
+    "id": "test-background",
+    "keyword": "Feature",
+    "uri": "src/main/resources/background.feature",
+    "tags": []
+  }
+]
