@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/main/resources/search multiple product.feature"},
 glue="stepdef",
-plugin="json:target/cucumber.json")
+plugin="json:target/jsonreport.json")
 //tags={"@smoke,@regression"})
 
 public class Scennariorun {
